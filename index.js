@@ -287,7 +287,7 @@ sldrDataPoolValue.textContent = sldrDataPool.value;
 const btnDownloadModel = document.getElementById("btn-download-model");
 btnDownloadModel.addEventListener("click", async ()=>{
     const d = new Date();
-    const saveResult = await model.save(`downloads://tsfjs_shape_morphing_model_${d.getTime()}`, {
+    const saveResult = await model.save(`downloads://tsfjs_shape_morphing_model_canvas${ctxSize}_${d.getTime()}`, {
         includeOptimizer: true
     });
 });

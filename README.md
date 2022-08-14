@@ -17,7 +17,9 @@
     - Able to change the learning rate
 - [ ] Feature: Changing brush size
 - [ ] Feature: User determined hidden layer sizes.
+    - save the layer infos in file name
 - [x] Improvement: User friendly frontend
+- [ ] Improvement: Better way to handle uploaded model's required canvas size
 - [ ] Improvement: Mobile Friendly website design
 - [ ] Improvement: Remove P5js depency
 - [ ] Improvement: Create a logo for the project
