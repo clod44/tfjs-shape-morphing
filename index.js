@@ -313,3 +313,16 @@ btnUploadModel.addEventListener("click", async ()=>{
     //model = await tf.loadLayersModel('http://model-server.domain/download/model.json');
 });
 
+const btnSaveImage = document.getElementById("btn-save-image");
+btnSaveImage.addEventListener("click", ()=>{
+    //create a temporary square canvas
+    const p = createGraphics(min(width,height),min(width,height));
+    p.background(0);
+    if(chckboxSmooth.checked){
+        p.smooth();
+    }else{
+        p.noSmooth();
+    }
+    p.image(ctx,0,0,p.width,p.height);
+    window.open(p.canvas.toDataURL(), '_blank');
+});
