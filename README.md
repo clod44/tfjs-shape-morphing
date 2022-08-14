@@ -1,7 +1,6 @@
 # Tfjs Shape Morphing
  Tfjs in-between shape creator. 
 
- screenshot here  
 
  ## Table of Context
 - TODO
@@ -21,6 +20,7 @@
 - [x] Improvement: User friendly frontend
 - [ ] Improvement: Mobile Friendly website design
 - [ ] Improvement: Remove P5js depency
+- [ ] Improvement: Create a logo for the project
 
  ## Depencies
  - [Tensorflow.js 2.0.0](https://www.tensorflow.org/js) (cdn)
@@ -30,7 +30,7 @@
 - [Bootstrap v5.2.0](https://getbootstrap.com/) (cdn)
 
 ## How to run locally
-Clone this repo and double click `index.html`. Still requires internet access for cdns. 
+Clone the `stable` branch and double click `index.html`. Still requires internet access for cdns. 
         
 ## How it works
 By pressing "Start the Training", it feeds the ml with different sized circles, squares and triangles and corrects the weights by drawing the particular shape in particular size and converting the canvas to a truth array. You can download or upload your model files to use them later / share. hidden layer size is determined by the canvas size. 
