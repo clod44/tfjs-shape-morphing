@@ -1,11 +1,11 @@
-# Tfjs Shape Morphing
+# [Tfjs Shape Morphing](https://clod44.github.io/tfjs-shape-morphing/)
  Tfjs simple in-between shape creator. 
 
 
  ## Table of Context
 - TODO
 - Depencies
-- How to run locally
+- How to run
 - How it works & Screenshots
 - Notes
 
@@ -29,8 +29,15 @@
     - `p5.prototype.VERSION`
 - [Bootstrap v5.2.0](https://getbootstrap.com/) (cdn)
 
-## How to run locally
-Clone the `stable` branch and double click `index.html`. Still requires internet access for cdns. 
+## How to run
+### Online
+Visit [here.](https://clod44.github.io/tfjs-shape-morphing/) (https://clod44.github.io/tfjs-shape-morphing/)
+### Local
+Clone the `stable` branch with  
+```
+git clone https://github.com/clod44/tfjs-shape-morphing/tree/stable
+```
+and double click `index.html`. Still requires internet access for cdns. 
         
 ## How it works
 By pressing "Start the Training", it feeds the ml with different sized circles, squares and triangles and corrects the weights by drawing the particular shape in particular size and converting the canvas to a truth array. You can download or upload your model files to use them later / share. hidden layer size is determined by the canvas size. 
