@@ -1,5 +1,5 @@
 # Tfjs Shape Morphing
- Tfjs in-between shape creator. 
+ Tfjs simple in-between shape creator. 
 
 
  ## Table of Context
