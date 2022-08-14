@@ -1,0 +1,21 @@
+
+
+
+.bg-wallpaper{
+    background-image: url(assets/bg.jpeg);
+    filter: hue-rotate(-45deg);
+    background-size: cover;
+}
+
+.logos{
+    filter: drop-shadow(white 0 0 2px) saturate(0) contrast(2); 
+    object-fit: contain; 
+    height: 2vh;
+}
+.logos:hover{
+    filter: drop-shadow(rgb(0, 0, 0) 0 0 2px) saturate(0) contrast(2) invert(100%);
+}
+
+
+
+
