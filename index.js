@@ -186,17 +186,9 @@ btnPredict.addEventListener("click",()=>{
 
 const chckboxAutoPredict = document.getElementById("chckbox-auto-predict");
 chckboxAutoPredict.addEventListener("click",()=>{
-    if(chckboxAutoPredict.checked){
-        btnPredict.style.display = "none";
-    }else{
-        btnPredict.style.display = "inline";
-    }
+    btnPredict.disabled = chckboxAutoPredict.checked;
 });
-if(chckboxAutoPredict.checked){
-    btnPredict.style.display = "none";
-}else{
-    btnPredict.style.display = "inline";
-}
+btnPredict.disabled = chckboxAutoPredict.checked;
 
 const btnDrawCircle = document.getElementById("btn-draw-circle");
 btnDrawCircle.addEventListener("click", ()=>{
