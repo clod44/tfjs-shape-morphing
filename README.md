@@ -33,7 +33,8 @@
 
 ## How to run
 ### Online
-Visit [here.](https://clod44.github.io/tfjs-shape-morphing/) (https://clod44.github.io/tfjs-shape-morphing/)
+Visit [here.](https://clod44.github.io/tfjs-shape-morphing/) (https://clod44.github.io/tfjs-shape-morphing/)  
+(You may need to turn off your **Canvas Fingerprint privacy extensions**)
 ### Local
 Clone the `stable` branch with  
 ```
